@@ -1,13 +1,37 @@
 body{
-        opacity:0.9;
-        width:100%;
-        text-align:center;
-        color:black;
+    opacity:0.9;
+    width:100%;
+    text-align:center;
+    color:black;
+    background-color: black;
     }
-    
- #carousel-example-generic {
+#carousel-example-generic {
          margin: 0 auto ;   
          width: 700px;
          /*padding-left: 50%;*/
          /*padding-right: 50%;*/
     }
+background-image{
+    width: 26px;
+    height: 26px;
+}
+h1{
+    font-size: 3em;
+    color: Tomato!important;
+}
+h2{
+    color: DeepPink ;
+    font-size: 3em;
+}
+label{
+    font-size: 3em;
+    color:red!important;
+}
+.country{
+    color:OrangeRed !important;
+    font-size: 4em;
+}
+h3{
+    font-size: 2em;
+    color:#c94c4c;
+}
