@@ -1,0 +1,13 @@
+body{
+        opacity:0.9;
+        width:100%;
+        text-align:center;
+        color:black;
+    }
+    
+ #carousel-example-generic {
+         margin: 0 auto ;   
+         width: 700px;
+         /*padding-left: 50%;*/
+         /*padding-right: 50%;*/
+    }
