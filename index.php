@@ -41,6 +41,7 @@ $backgroundImage = 'w3.jpg';
     </fieldset>
     <label for="favC" class = "country">Choose your favorite country?</label>
     <select id="favC" name="select">
+        <option>Select</option>
         <option value="1">Australia</option>
         <option value="2">Brazil</option>
         <option value="3">China</option>
@@ -62,6 +63,9 @@ $backgroundImage = 'w3.jpg';
      <input type = "submit" value = "Submit"/>
      </form>
      <?php
+     if($countryNum == 'Select'){
+         echo "<h4>Error!No Country Entered!</h4>";
+     }
      if(isset($countryNum)){
          if('1'==$countryNum){
              $CountryPics = $AustraliaPics;
@@ -125,13 +129,13 @@ $backgroundImage = 'w3.jpg';
              echo "<h3>Music is off <h3>";
          }
      }
-     if(isset($_GET['keyword']))
+     if(!isset($_GET['music']))
      {
-        // echo "<h2>*</h2>";
-         //echo "<h1>";
+          echo "<h3>Music is off <h3>";
+     }
+     if(isset($_GET['keyword'])&& $_GET['select']!= 'Select')
+     {
          echo "<h1>*Hello ". $_GET['keyword'].". I hope you enjoy this!!!*</h1>";
-         //echo "</h1>";
-        // echo "<h2>*</h2>";
      }
      ?>
          <div id  = "carousel-example-generic" class = "carousel slide" data-ride = "carousel">

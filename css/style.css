@@ -6,10 +6,8 @@ body{
     background-color: black;
     }
 #carousel-example-generic {
-         margin: 0 auto ;   
-         width: 700px;
-         /*padding-left: 50%;*/
-         /*padding-right: 50%;*/
+    margin: 0 auto ;   
+    width: 700px;
     }
 background-image{
     width: 26px;
@@ -34,4 +32,7 @@ label{
 h3{
     font-size: 2em;
     color:#c94c4c;
+}
+h4{
+    font-size: 4em;
 }
