@@ -8,6 +8,7 @@ $backgroundImage = 'w3.jpg';
 <html>
     <head>
         <title>Forms</title>
+        <h5 style="font-size:60px;"><mark>Country Pictures and songs</mark></h5>
         <link href ="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel = "stylesheet">
     </head>
     <body>
@@ -181,6 +182,12 @@ $backgroundImage = 'w3.jpg';
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <footer id="fter">
+            <hr>
+            CST 336. 2018&copy; Gopar<br />
+            <strong>Disclaimer:</strong> The information in this webpage is for <br>educational purposes only.<br>
+            <img src="https://csumb.edu/sites/default/files/styles/profile_large/public/photo_1_6.jpg?itok=N4I4g9Wl">
+        </footer>
     </body>
     <style>
         @import url("css/style.css");

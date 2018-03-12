@@ -36,3 +36,13 @@ h3{
 h4{
     font-size: 4em;
 }
+footer{
+    clear:left;
+    font-size:2em;
+    color:green;
+    text-align: center !important;
+}
+h5{
+    text-decoration: underline;
+    color:#c94c4c!important;
+}
